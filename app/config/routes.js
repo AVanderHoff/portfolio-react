@@ -4,7 +4,7 @@ var React = require('react');
 var Main = require('../components/Main');
 var About = require('../components/About');
 var Portfolio = require('../components/Portfolio');
-var Contact = require('../components/Contact');
+//var Contact = require('../components/Contact');
 
 var Router = require('react-router');
 var Route = Router.Route;
