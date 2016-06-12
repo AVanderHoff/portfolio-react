@@ -1,7 +1,8 @@
 var React = require('react');
 var Router = require('react-router');
-
+//var path = require('./assets/images/CARHANGMAN.png');
 var Portfolio = React.createClass({
+
 
 render:function(){
 
@@ -15,13 +16,14 @@ return(
 						<h1 className="panel-title"><strong>Portfolio</strong></h1>
 					</div>
 					<div className="panel-body">
-	
 
 
+
+{/*
 	<div className= "col-md-4">
 		
 	<a href="http://car-hangman-av.herokuapp.com/" target="_blank" >
-	<img id="hangman" src={"assets\images\CARHANGMAN.png"} alt="hangman" title="hangman" /> </a>
+	<img className="image" id="hangman" src={path} alt="hangman" title="hangman" /> </a>
 		<h3> Hangman </h3>
 	 
 	</div>
@@ -57,7 +59,7 @@ return(
 	<img id="train-station" src={"assets\images\trains.png"} alt="train-station" title="train-station" /> </a>
 		<h3>Train-Station </h3>
 	 </div>
-
+*/}
 </div>
 </div>
 </div>
