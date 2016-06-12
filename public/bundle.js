@@ -24141,7 +24141,7 @@
 	var Main = __webpack_require__(209);
 	var About = __webpack_require__(210);
 	var Portfolio = __webpack_require__(211);
-	var Contact = __webpack_require__(213);
+	var Contact = __webpack_require__(212);
 
 	var Router = __webpack_require__(159);
 	var Route = Router.Route;
@@ -24355,8 +24355,7 @@
 	module.exports = Portfolio;
 
 /***/ },
-/* 212 */,
-/* 213 */
+/* 212 */
 /***/ function(module, exports) {
 
 	"use strict";
