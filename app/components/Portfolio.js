@@ -1,6 +1,12 @@
 var React = require('react');
 var Router = require('react-router');
-//var path = require('./assets/images/CARHANGMAN.png');
+var hangman = require('url?!./assets/images/CARHANGMAN.png');
+var starwars = require('url?!./assets/images/star-wars-rpg.png');
+var triviagame = require('url?!./assets/images/trivia-game.png');
+var giffysearch = require('url?!./assets/images/giffy-search.png')
+var trainstation = require('url?!./assets/images/trains.png')
+
+
 var Portfolio = React.createClass({
 
 
@@ -19,27 +25,29 @@ return(
 
 
 
-{/*
+
 	<div className= "col-md-4">
 		
 	<a href="http://car-hangman-av.herokuapp.com/" target="_blank" >
-	<img className="image" id="hangman" src={path} alt="hangman" title="hangman" /> </a>
+	<img className="image" id="hangman" src={hangman} alt="hangman" title="hangman" /> </a>
 		<h3> Hangman </h3>
 	 
 	</div>
 
 		<div className= "col-md-4">
 	<a href="http://star-wars-rpg-av.herokuapp.com/" target="_blank" >
-	<img id="rpg-game" src={"assets\images\star-wars-rpg.png"} alt="rpg-game" title="rpg-game" /> </a>
+	<img id="rpg-game" src={starwars} alt="rpg-game" title="rpg-game" /> </a>
 
 		<h3> RPG Game </h3>
 	</div>
 
 	
+
+
 	<div className= "col-md-4">
 			
 	<a href="http://trivia-game-av.herokuapp.com/" target="_blank" >
-	<img id="trivia-game" src={"./assets/images/trivia-game.png"} alt="trivia-game" title="trivia-game" /> </a>
+	<img id="trivia-game" src={triviagame} alt="trivia-game" title="trivia-game" /> </a>
 
 	<h3> Trivia Game </h3>
 	</div>
@@ -47,19 +55,18 @@ return(
 
 
 
-
 		<div className= "col-md-4">
 		<a href="http://giffy-search-av.herokuapp.com/" target="_blank" >
-	<img id="giffy-search" src={"assets\images\giffy-search.png"} alt="giffy-search" title="giffy-search" /> </a>
+	<img id="giffy-search" src={giffysearch} alt="giffy-search" title="giffy-search" /> </a>
 		<h3>Giffy-Search </h3>
 	 </div>
 
 	 <div className= "col-md-4">
 		<a href="http://train-station-av.herokuapp.com/" target="_blank" >
-	<img id="train-station" src={"assets\images\trains.png"} alt="train-station" title="train-station" /> </a>
+	<img id="train-station" src={trainstation} alt="train-station" title="train-station" /> </a>
 		<h3>Train-Station </h3>
 	 </div>
-*/}
+
 </div>
 </div>
 </div>
