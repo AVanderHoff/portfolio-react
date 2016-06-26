@@ -23,8 +23,8 @@ var About = React.createClass({
 
 
 						<h2>
-						My name is Andrew VanderHoff, I am a web
-						developer in the  NY City Area.
+						My name is Andrew VanderHoff, I am a Backend Web
+						Developer in the  NY City Area.
 
 
 						</h2>
